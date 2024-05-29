@@ -25,3 +25,7 @@ O projeto será desenvolvido em fases, abordando diferentes aspectos e funcional
 - Banco de Dados (PostgreSQL)
 
 ## Estrutura do Repositório
+
+## Como executar o projeto?
+
+
