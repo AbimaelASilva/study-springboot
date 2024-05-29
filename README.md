@@ -22,6 +22,6 @@ O projeto será desenvolvido em fases, abordando diferentes aspectos e funcional
 - Java
 - Spring Boot
 - Maven
-- Banco de Dados (ex: PostgreSQL)
+- Banco de Dados (PostgreSQL)
 
 ## Estrutura do Repositório
