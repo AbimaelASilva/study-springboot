@@ -27,53 +27,42 @@ O projeto será desenvolvido em fases, abordando diferentes aspectos e funcional
 ## Estrutura do Repositório
 
 ## Como executar o projeto?
-1 - Pré requisitos:
-        - Tenha instalado/configurado em seu SO:
+### 1. Pré-requisitos:
+- Tenha instalado/configurado em seu SO:
+    - **Java 17**:
+        - [Windows](https://www.youtube.com/watch?v=QekeJBShCy4)
+        - [Linux](https://www.youtube.com/watch?v=iHZ4b1twvlg)
+        - [MacOS](https://www.youtube.com/watch?v=SdKIBGnkhDY)
+        - Configuração manual de variáveis de ambiente: [Tutorial](https://medium.com/beelabacademy/configurando-vari%C3%A1veis-de-ambiente-java-home-e-maven-home-no-windows-e-unix-d9461f783c26)
+    - **IDE de sua preferência**:
+        - [VSCode](https://code.visualstudio.com/Download)
+        - [IntelliJ](https://www.jetbrains.com/idea/download/?section=windows)
+    - **Git**:
+        - [Download](https://git-scm.com/downloads/)
 
-            - O java 17;
-                    - Windows: https://www.youtube.com/watch?v=QekeJBShCy4
-                    - Linux: https://www.youtube.com/watch?v=iHZ4b1twvlg
-                    - MacOS: https://www.youtube.com/watch?v=SdKIBGnkhDY
-                    - Vale salientar que há a possibilidade de ter que fazer manualmente a configuraçoes de variáveis de ambiente:
-                        - https://medium.com/beelabacademy/configurando-vari%C3%A1veis-de-ambiente-java-home-e-maven-home-no-windows-e-unix-d9461f783c26
-            
-            - Um IDE(Integrated Development Environment - Abiente de desenvolvimento integrado) de sua preferênciaeditor;
-                    - VsCode: https://code.visualstudio.com/Download
-                    - InteliJ: https://www.jetbrains.com/idea/download/?section=windows
+### 2. Clonar o repositório do projeto:
+- Existem várias formas de clonar um repositório Git, seguem alguns links úteis:
+    - [Documentação GitHub](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)
+    - [Vídeo tutorial](https://www.youtube.com/watch?v=WEPB5pDSEIg)
 
-            - O Git:
-                    - https://git-scm.com/downloads/
+#### Passos para clonar o repositório no Windows:
+1. Escolha a pasta onde você deseja salvar o projeto.
+2. Navegue até essa pasta.
+3. Clique com o botão direito do mouse em uma área vazia da pasta e selecione "Abrir no terminal".
+4. Execute o comando `git clone git@github.com:AbimaelASilva/study-springboot.git`.
+5. Após executar o comando com sucesso, a pasta do projeto "study-springboot" será criada.
 
-2 - Após concluir os passos à cima, vamos clonar o repositório do projeto:
-        
-        - Obs: Existem várias formas de clonar um repositório git, vou dixar alguns links para lhe auxiliar caso tenha dificuldades:
-            - https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository
-            - https://www.youtube.com/watch?v=WEPB5pDSEIg
-            -    
+### 3. Abrir o projeto em uma IDE (Exemplo: VSCode):
+1. Abra o VSCode e vá até `File/Arquivo`.
+2. Selecione `Open Folder/Abrir pasta`.
+3. Navegue até a pasta onde você clonou o repositório.
+4. Selecione a pasta "study-springboot" e clique em `Selecionar pasta`.
+5. Agora o projeto "study-springboot" está aberto no VSCode.
+6. No lado esquerdo, você pode ver a estrutura básica de pastas de um projeto Spring Boot.
 
-        - Passos para clonar o repositório no Windows:
-            - Escolha a pasta onde você deseja salvar o projeto;
-            - Navegue até a pasta onde deseja clonar o projeto;
-            - Clique com o botão direito do windows em um área vazia desta pasta;
-            - No menu que se abriu, selecione a opção "Abrir no terminal", e com isso você abrirá o terminal PowerShell no caminho  "C:\Users\user\caminho até a pasta>";
-            - Execute o comando "git clone git@github.com:AbimaelASilva/study-springboot.git";
-            - Após executar o comando à cima com sucesso, a pasta do projeto "study-springboot" estrá criada.
-
-3 - Com o repositório clonado na sua máquina, chegou a hora de abir o projeto em uma IDE, no meu caso vou dar o exemplo com a IDE VSCode;
-        - Abra o VScode, vá até File/Arquivo;
-        - Selecione a opção Open Folder/Abrir pasta;
-        - Navegue até a pasta onde você clonou o repositório (item 2.2);
-        - Dentro da pasta que você clonou o projeto deve esta a pasta "study-springboot", dê um clique para selecioná-la e clique no botão "Selecionar pasta", do lado inferiro direito;
-        - Pronto, você agora esta com o projeto "study-springboot" aberto no VSCode;
-        - Do lado esquerdo é possível ver a estrutura de pastas básicas de um projeto Springboot;
-
-4 - Chegou a hora de rodar o projeto;
-    
-    - No VSCode, existem várias formas de "rodar/executar" o projeto. A forma mais prática é selecionar um arquivo, no nosso caso, com a extensão .java, e depois pressionar F5;
-    - Na estrutura de pastas, do lado esquerdo, localize e vá brindo as pastar "src", "main" e depois "java";
-    - Ao abrir a pasta "java", você deverá ver o arquivo "StudySpringbootApplication.java", dê um clique nele;
-    - Agora com um arquivo de extensão .java selecionado você já consegue "rodar/executar" o projeto simplesmente pressionado a tecla F5.
-    - Ainda com o arquivo de extensão .java selecionado, você consegue "rodar/executar" o projeto indo até o meni "Run/Rodar" e selecionar uma das duas primeiras opções: "Start debugging/Iniciar debug" "Run without debugging/Iniciar sem debug";
-    -Para o Desafio 1 - Componentes e injeção de dependência,  tem uma função na classe StudySpringbootApplication.java que é iniciada automaticamente junto com o projeto, executando o cálculo com dados preestabelecidos. Para iserir novos dados de Pedido(Order), faça isso alterando os valores passados no constutor do objeto  "OrderDAO" que esta na linha 21 do arquivo StudySpringbootApplication.java. O resultado será exibido no console do terminal da aplicação.
-    
-
+### 4. Rodar o projeto:
+1. No VSCode, selecione um arquivo `.java` e pressione `F5`.
+2. Navegue até `src/main/java`.
+3. Abra o arquivo `StudySpringbootApplication.java`.
+4. Com o arquivo `.java` aberto, você pode rodar o projeto pressionando `F5` ou indo em `Run/Rodar` e selecionando "Start debugging/Iniciar debug" ou "Run without debugging/Iniciar sem debug".
+5. Para o Desafio 1 - Componentes e Injeção de Dependência, há uma função na classe `StudySpringbootApplication.java` que é iniciada automaticamente junto com o projeto, executando o cálculo com dados preestabelecidos. Para inserir novos dados de Pedido (Order), altere os valores no construtor do objeto `OrderDAO` na linha 21 do arquivo `StudySpringbootApplication.java`. O resultado será exibido no console do terminal da aplicação.
