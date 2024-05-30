@@ -16,6 +16,8 @@ public class StudySpringbootApplication {
 	}
 
 	public static void printTotal() {
+
+		// OrderDAO(double code, double basic, double discount) 
 		OrderDAO order = new OrderDAO(1034, 95.90, 0);
 		OrderService orderService = new OrderService(new ShippingService());
 		System.out.println("Total: " + orderService.total(order));
