@@ -2,12 +2,12 @@ package com.housedev.studyspringboot.sharedServices;
 
 import org.springframework.stereotype.Service;
 
-import com.housedev.studyspringboot.order.OrderDAO;
+import com.housedev.studyspringboot.order.OrderEntity;
 
 @Service
 public class ShippingService {
 
-    public double shipment(OrderDAO orderDAO) {
+    public double shipment(OrderEntity orderDAO) {
 
         final double basic = orderDAO.getBasic();
         double shipping = 0;

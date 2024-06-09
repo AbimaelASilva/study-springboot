@@ -1,11 +1,11 @@
 package com.housedev.studyspringboot.order;
 
-public class OrderDAO {
+public class OrderEntity {
     private Integer code;
     private double basic;
     private double discount;
 
-    public OrderDAO(Integer code, double basic, double discount) {
+    public OrderEntity(Integer code, double basic, double discount) {
         this.code = code;
         this.basic = basic;
         this.discount = discount;

@@ -13,7 +13,7 @@ public class OrderService {
         this.shippingService = shippingService;
     }
 
-    public double total(OrderDAO orderDAO) {
+    public double total(OrderEntity orderDAO) {
         double basic = orderDAO.getBasic();
 
         double basicWithDiscount = basic - (basic * (orderDAO.getDiscount() / 100));
